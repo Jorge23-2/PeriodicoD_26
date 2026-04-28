@@ -1,0 +1,62 @@
+body {
+    background-color: #0F172A;     /* Fondo oscuro elegante */
+    text-align: center;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.contenedor-portafolio {
+    background-color: #1E2937;     /* Gris azulado oscuro */
+    width: 380px;
+    margin: 40px auto;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid #334155;
+}
+
+h1 {
+    color: #22D3EE;                /* Cyan neón moderno */
+    font-size: 2.2em;
+    margin-bottom: 8px;
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.3);
+}
+
+p {
+    color: #94A3B8;
+    font-size: 1.1em;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #60A5FA;                /* Azul vibrante */
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    display: block;
+    background-color: #334155;
+    color: #E2E8F0;
+    padding: 14px 20px;
+    margin: 12px 0;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    border: 1px solid #475569;
+}
+
+a:hover {
+    background-color: #22D3EE;
+    color: #0F172A;
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 8px 20px rgba(34, 211, 238, 0.4);
+}
